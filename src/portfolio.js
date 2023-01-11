@@ -85,7 +85,7 @@ const degrees = {
       website_link: "https://iitjammu.ac.in/faculty/~rakeshsinghai",
     },
     {
-      title: "Amit Kumar Singh",
+      title: "Dr Ankit Dubey",
       subtitle: "Faculty Incharge, I2EDC, IIT Jammu",
       logo_path: "amit.jpg",
       alt_name: "SSEC",
@@ -98,7 +98,7 @@ const degrees = {
       I invite all of you to use the I2EDC facility at its best level for ideation and innovation.
       `,
       ],
-      website_link: "https://iitjammu.ac.in/faculty/~amitkumarsingh",
+      website_link: "https://iitjammu.ac.in/faculty/~ankitdubey",
     },
   ],
 };
