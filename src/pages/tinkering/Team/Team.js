@@ -100,7 +100,7 @@ const Team = (props) => {
               </Typography>
              
               <Typography variant="p" component="p">
-                kuch to h
+                Head-Lab Maintenance
               </Typography>
             </CardContent>
           </div>
@@ -170,7 +170,7 @@ const Team = (props) => {
                 Tanisha Khare
               </Typography>
               <Typography variant="p" component="p">
-                Manager
+                Media Team
               </Typography>
             </CardContent>
           </div>
@@ -187,7 +187,7 @@ const Team = (props) => {
                 Sahil
               </Typography>
               <Typography variant="p" component="p">
-                Manager
+                Head-Social Media
               </Typography>
             </CardContent>
           </div>
@@ -221,7 +221,7 @@ const Team = (props) => {
                 Deepanshu Mittal
               </Typography>
               <Typography variant="p" component="p">
-                Manager
+                Head - Media Team
               </Typography>
             </CardContent>
           </div>
