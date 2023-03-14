@@ -9,9 +9,13 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 
 import "./team.css";
-import prashant from "./images/prashant.png";
+import rishika from "./images/rishika.jpg";
 import dharmik from "./images/dharmik.jpg";
-import kuldeep from "./images/kuldeep.png";
+import atharva from "./images/atharva.jpg";
+import rachit from "./images/rachit.jpg";
+import Sahil from "./images/Sahil.jpg";
+import tanisha from "./images/tanisha.jpg";
+import deepanshu from "./images/deepanshu.jpg";
 
 const theme = createTheme({
   breakpoints: {
@@ -50,12 +54,12 @@ const Team = (props) => {
           <div className="member">
             <CardMedia
               className={classes.media}
-              image={prashant}
-              title="Prashant Sagar"
+              image={harshit}
+              title="Harshit"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Prashant Kumar Sagar
+                Harshit
               </Typography>
               <Typography variant="p" component="p">
                 Manager
@@ -75,7 +79,10 @@ const Team = (props) => {
                 Dharmik Shah
               </Typography>
               <Typography variant="p" component="p">
-                Treasurer
+                <em>Batch of 2019</em>
+              </Typography>
+              <Typography variant="p" component="p">
+                Mentor
               </Typography>
             </CardContent>
           </div>
@@ -84,23 +91,142 @@ const Team = (props) => {
           <div className="member">
             <CardMedia
               className={classes.media}
-              image={kuldeep}
-              title="Kuldeep Kumar"
+              image={rachit}
+              title="Rachit Bundiwal"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Kuldeep Kumar
+                Rachit Bundiwal
               </Typography>
+             
               <Typography variant="p" component="p">
-                <em>Batch of 2016</em>
-              </Typography>
-              <Typography variant="p" component="p">
-                Mentor
+                kuch to h
               </Typography>
             </CardContent>
           </div>
         </Grid>
-      </Grid>
+     
+        <Grid item xs={6} md={8} lg={6}>
+          <div className="member">
+            <CardMedia
+              className={classes.media}
+              image={rishika}
+              title="Rishika Ranyal"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Rishika Ranyal
+              </Typography>
+              <Typography variant="p" component="p">
+                Head-Lab Activity & Training
+              </Typography>
+            </CardContent>
+          </div>
+        </Grid>
+        <Grid item xs={6} md={8} lg={6}>
+          <div className="member">
+            <CardMedia
+              className={classes.media}
+              image={atharva}
+              title="Atharva Bhunje"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Atharva Bhunje
+              </Typography>
+              <Typography variant="p" component="p">
+                Manager
+              </Typography>
+            </CardContent>
+          </div>
+        </Grid>
+        
+        <Grid item xs={6} md={8} lg={6}>
+          <div className="member">
+            <CardMedia
+              className={classes.media}
+              image={mayank}
+              title="Mayank Verma"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Mayank Verma
+              </Typography>
+              <Typography variant="p" component="p">
+                Manager
+              </Typography>
+            </CardContent>
+          </div>
+        </Grid>
+        <Grid item xs={6} md={8} lg={6}>
+          <div className="member">
+            <CardMedia
+              className={classes.media}
+              image={tanisha}
+              title="Tanisha Khare"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Tanisha Khare
+              </Typography>
+              <Typography variant="p" component="p">
+                Manager
+              </Typography>
+            </CardContent>
+          </div>
+        </Grid>
+        <Grid item xs={6} md={8} lg={6}>
+          <div className="member">
+            <CardMedia
+              className={classes.media}
+              image={Sahil}
+              title="Sahil Agarwal"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Sahil
+              </Typography>
+              <Typography variant="p" component="p">
+                Manager
+              </Typography>
+            </CardContent>
+          </div>
+        </Grid>
+        <Grid item xs={6} md={8} lg={6}>
+          <div className="member">
+            <CardMedia
+              className={classes.media}
+              image={harshitj}
+              title="Harshit Jain"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Harshit Jain
+              </Typography>
+              <Typography variant="p" component="p">
+                Manager
+              </Typography>
+            </CardContent>
+          </div>
+        </Grid>
+        <Grid item xs={6} md={8} lg={6}>
+          <div className="member">
+            <CardMedia
+              className={classes.media}
+              image={deepanshu}
+              title="Deepanshu Mittal"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Deepanshu Mittal
+              </Typography>
+              <Typography variant="p" component="p">
+                Manager
+              </Typography>
+            </CardContent>
+          </div>
+        </Grid>
+        </Grid>
     </section>
   );
 };
